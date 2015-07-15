@@ -26,7 +26,7 @@ app.controller("homeCtrl",function($scope,$localStorage,$http,headerChanger){
         return function(){
             if(naved){return}
             naved=true;
-            headerChanger.send({pageTitle: '昌达实业'});
+            headerChanger.send({pageTitle: '康建胶带'});
         };
     })());
 
